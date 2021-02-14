@@ -29,7 +29,7 @@ istream &operator>>(istream &is, linklist &ll)
     node *p = new node;
     printf("enter data : ");
     cin>>p->data;
-    if(ll.frist==ll.last==NULL){
+    if(!ll.frist){
         ll.frist=ll.last=p;
         ll.size++;
     }else{
