@@ -2,3 +2,5 @@ arrayadt/array.c
 arrayadt/array.exe
 search.h
 .vscode
+matrix
+sort
