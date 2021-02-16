@@ -50,6 +50,7 @@ int main()
          cout<<"1 for pushing element in queue\n";
          cout<<"2 for pop element from queue\n";
          cout<<"3 for display element of queue\n";
+         cout<<"any number except 1,2,3 to quit\n";
          cin>>ch;
          cout<<"----------\n";
          switch (ch)
